@@ -110,5 +110,5 @@ class RetrySamplingHelper:
                     _logger.warning('Sampling failed after %d retries. Giving up and raising the last exception.', self.retries)
                     raise
 
-        _logger.warning('Sampling failed after %d retires. Giving up and returning None.', self.retries)
+        _logger.warning('Sampling failed after %d retries. Giving up and returning None.', self.retries)
         return None
